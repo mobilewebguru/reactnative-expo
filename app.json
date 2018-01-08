@@ -1,0 +1,31 @@
+{
+  "name": "WoodyBoater",
+  "expo": {
+    "name": "WoodyBoater",
+    "sdkVersion": "17.0.0",
+    "slug": "woodyboater",
+    "icon": "./assets/images/woody_mark.png",
+    "privacy": "unlisted",
+    "version": "1.0.0",
+    "loading": {
+      "icon": "./assets/images/woody_mark.png"
+    },
+    "notification": {
+      "icon": "./assets/images/woody_mark.png",
+      "color": "#003366",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "New WoodyBoater messages"
+    },
+    "ios": {
+      "bundleIdentifier": "com.smithgifford.woodyboater"
+    },
+    "android": {
+      "package": "com.smithgifford.woodyboater",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD2u3auisFWAmBUj8rjHRHDyuB0O2KnkeE"
+        }
+      }
+    }
+  }
+}
